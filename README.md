@@ -59,7 +59,7 @@ Jsoup 是一款Java 的HTML解析器，可直接解析某个URL地址、HTML文�
 
 /**
     * 精品推荐
-    **/
+    
    public static List<AppInfo> getAPPInfoList(String result) {
 //        Log.d("test", "getAPPInfoList:" + result);
        List<AppInfo> appInfoList = new ArrayList<>();
@@ -155,7 +155,7 @@ public interface XiaoMiInterface {
  然后再对网络请求返回的String字符串进行Jsoup解析，返回相应的结果，具体代码是在RetrofitManager的类中.
  
  ### 注释
- 其他的库或代码借鉴的参考资料网址忘了
+ 其他的库或代码借鉴的参考资料网址忘了,侵删。
  
  ### 联系邮箱
  * 775269512@qq.com
